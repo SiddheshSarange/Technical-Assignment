@@ -1,0 +1,11 @@
+Test Type - Positive1. Verify that login is successful if user inputs a valid email ID and valid password.If valid email ID and valid password is given as input, login should be successful.Expected Results and Validations
+a. The response status code should be 200.
+b. Unique token should be generated.2. Verify unique token generated should be able to authenticate next chained requests.Expected Results and Validationsa. User able to access chained request successfully.3. Verify the validity of token generated.Expected Results and Validationsa. User should be able to authenticate with token for specific time frame only4. Verify that login is unsuccessful if user inputs only a valid email ID and does not input password.
+If only email ID is given as input, login should be unsuccessful.Expected Results and Validations
+a. The response status code should be 400.
+b. The Error message “Missing password” should be displayed.Tet Type - Negative1. Verify that login is unsuccessful if user inputs only password and does not input email ID.If only password is given as input, login should be unsuccessful.Expected Results and Validations
+a. The response status code should be 400.
+b. The Error message “Missing email ID” should be displayed.2.Verify that login is unsuccessful if user does not input valid email ID and password.If invalid email ID and password is given as input, login should be unsuccessful.Expected Results and Validations
+a. The response status code should be 401.
+b. The Error message “User unauthorized” should be displayed.
+3. Verify the JSON schema,mandatory fields and headers.Expected Results and Validationsa. response contains String type key value pairs.
