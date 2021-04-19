@@ -1,0 +1,354 @@
+Request method:	POST
+Request URI:	https://reqres.in/PostRegisterAPI
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "eve.holt@reqres.in",
+    "password": "pistol",
+    "name": null,
+    "job": null
+}
+HTTP/1.1 404 Not Found
+Date: Mon, 19 Apr 2021 04:18:54 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=dd3862129dedf33ed6617461d04c973c11618805934; expires=Wed, 19-May-21 04:18:54 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0989f361e80000087792aca000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=qjuWc05T3J99BXFoa7kv7ezQGfl6%2FkLO7Qhl9sOUaUCQFZnIJpMot6EnlwyxDGqN4j2r10pnim9bEHSV%2BfPU9AFfs5U4FER1DfI%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 642354e30a870877-CDG
+Content-Encoding: gzip
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+<html lang="en">
+  <head>
+    <script>
+            ;(function (w, d, s, l, i) {
+                w[l] = w[l] || []
+                w[l].push({
+                    'gtm.start': new Date().getTime(),
+                    event: 'gtm.js',
+                })
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l != 'dataLayer' ? '&amp;l=' + l : ''
+                j.async = true
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl
+                f.parentNode.insertBefore(j, f)
+            })(window, document, 'script', 'dataLayer', 'GTM-KB622KF')
+        </script>
+    <script src="https://js.stripe.com/v3/"/>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <meta name="description" content="A hosted REST-API ready to respond to your AJAX requests"/>
+    <title>
+            Reqres - A hosted REST-API ready to respond to your AJAX requests
+        </title>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/css/app.css"/>
+  </head>
+  <body>
+    <div class="header-content">
+      <header class="main-header">
+        <section class="wrap">
+          <h1 class="logo">
+            <a shape="rect" href="/">Req | Res</a>
+          </h1>
+        </section>
+      </header>
+      <main class="the-sell">
+        <div class="wrap">
+          <h2 class="tagline">
+                        Test your front-end against a real API
+                    </h2>
+          <section class="key-sells">
+            <div class="sell">
+              <div class="v-center">
+                <h3>Fake data</h3>
+                <p>
+                                    No more tedious sample data creation, we've
+                                    got it covered.
+                                </p>
+              </div>
+              <i class="fa fa-cloud-download"/>
+            </div>
+            <div class="sell">
+              <div class="v-center">
+                <h3>Real responses</h3>
+                <p>
+                                    Develop with real response codes. GET, POST,
+                                    PUT &amp; DELETE supported.
+                                </p>
+              </div>
+              <i class="fa fa-code"/>
+            </div>
+            <div class="sell">
+              <div class="v-center">
+                <h3>Always-on</h3>
+                <p>
+
+                                    24/7                   <strong>
+                    <em>free</em>
+                  </strong>
+ access
+                                    in your development phases. Go nuts.
+                                                </p>
+              </div>
+              <i class="fa fa-toggle-on"/>
+            </div>
+          </section>
+          <h2 class="tagline">
+                        A hosted REST-API ready to respond to your AJAX
+                        requests.
+                    </h2>
+          <div class="t-center main-arrow">
+            <i class="fa fa-arrow-circle-down"/>
+          </div>
+          <script id="_carbonads_js" async="async" type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CE7D6K3E&amp;placement=reqresin"/>
+        </div>
+      </main>
+    </div>
+    <div class="container">404</div>
+    <footer>
+      <div class="wrap">
+        <hr class="dark"/>
+        <p class="t-center">
+
+                    Made for developers and designers by
+                              <a shape="rect" href="https://benhowdle.im">Ben Howdle</a>
+        </p>
+      </div>
+    </footer>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.3/fastclick.min.js"/>
+    <script src="/js/app.js"/>
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-174008107-1"/>
+    <script>
+            window.dataLayer = window.dataLayer || []
+            function gtag() {
+                dataLayer.push(arguments)
+            }
+            gtag('js', new Date())
+
+            gtag('config', 'UA-174008107-1')
+        </script>
+    <script>
+            ;(function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r
+                ;(i[r] =
+                    i[r] ||
+                    function () {
+                        ;(i[r].q = i[r].q || []).push(arguments)
+                    }),
+                    (i[r].l = 1 * new Date())
+                ;(a = s.createElement(o)), (m = s.getElementsByTagName(o)[0])
+                a.async = 1
+                a.src = g
+                m.parentNode.insertBefore(a, m)
+            })(
+                window,
+                document,
+                'script',
+                '//www.google-analytics.com/analytics.js',
+                'ga'
+            )
+
+            ga('create', 'UA-55888877-1', 'auto')
+            ga('send', 'pageview')
+        </script>
+  </body>
+</html>
+Request method:	POST
+Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "eve.holt@reqres.in",
+    "password": "pistol",
+    "name": null,
+    "job": null
+}
+HTTP/1.1 200 OK
+Date: Mon, 19 Apr 2021 04:18:56 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 29
+Connection: keep-alive
+Set-Cookie: __cfduid=de42aad2dfd821e917ed2201a21b29bc21618805936; expires=Wed, 19-May-21 04:18:56 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"1d-lGCrvD6B7Qzk11+2C98+nGhhuec"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0989f367890000085363111000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=m3qHnOUMM5Fla%2FXL%2FhFFiZ2llVoG%2BIuIM1AaN5ifnpG18TNx4SJ%2F2sNHl3opWCD1sJthQPVV%2FFdtfKnfYMz3FV6PKQdEp5uQWU4%3D"}],"max_age":604800,"group":"cf-nel"}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 642354ec082a0853-CDG
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "token": "QpwL5tke4Pnpja7X4"
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": null,
+    "password": null,
+    "name": "morpheus",
+    "job": "leader"
+}
+HTTP/1.1 201 Created
+Date: Mon, 19 Apr 2021 04:18:57 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 113
+Connection: keep-alive
+Set-Cookie: __cfduid=d56e46c3ee474f72f1fd8de4c12d329331618805937; expires=Wed, 19-May-21 04:18:57 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"71-9euB9G3NgTPnNhCf35Lh2J2XWIk"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0989f36e0f0000088be2896000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=3gEtJKNSpoqKKw6bEb6OApWyHCInxntU1a1BwrJK8grJWGRdT%2B082wysVFZP9%2F0NzJkXRg7pNmNSnNs%2F%2FaSEp7MtxUGGmkybTMk%3D"}],"max_age":604800,"group":"cf-nel"}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 642354f67d85088b-CDG
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "email": null,
+    "password": null,
+    "name": "morpheus",
+    "job": "leader",
+    "id": "307",
+    "createdAt": "2021-04-19T04:18:57.722Z"
+}
+Request method:	GET
+Request URI:	https://reqres.in/api/users?page=2
+Proxy:			<none>
+Request params:	<none>
+Query params:	page=2
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": null,
+    "password": null,
+    "name": "morpheus",
+    "job": "leader"
+}
+HTTP/1.1 200 OK
+Date: Mon, 19 Apr 2021 04:18:58 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d534b988d320e33356ca18a705cde40be1618805938; expires=Wed, 19-May-21 04:18:58 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 5509
+cf-request-id: 0989f37185000032b08a01e000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=4nmlYSERKoOugkXseN75MF40%2FlJhqaO2ip%2FvCFsq4quUF6klSoyDFhAfmXCDpo4C4Mljz52QtHia%2BS8L8mSzwnAhL0mxAeTcLBo%3D"}]}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 642354fc08c832b0-CDG
+Content-Encoding: gzip
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
